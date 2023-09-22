@@ -1,0 +1,30 @@
+.navBar {
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  background-color: aliceblue;
+}
+
+.navBar ul {
+  padding: 0px;
+  font-size: large;
+  gap: 15px;
+  display: flex;
+  list-style-type: none;
+}
+
+.navBar img {
+  width: 65px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navBar a:hover {
+  color: red;
+  transition: all 0.2s;
+}
