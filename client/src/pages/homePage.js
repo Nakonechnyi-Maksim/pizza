@@ -20,7 +20,9 @@ function HomePage() {
           </li>
           <li>{item.ingredients}</li>
           <li>Размер{item.size}</li>
-          <li>Цена {item.price}</li>
+          <li>
+            Цена {item.price} <button>Добавить</button>
+          </li>
         </ul>
       ))}
     </div>

@@ -9,6 +9,10 @@ body {
   padding: 0px;
 }
 
+.aboutUsBlock {
+  margin: 30px;
+}
+
 .menu {
   margin-top: 40px;
   display: flex;
@@ -34,4 +38,21 @@ body {
 }
 
 .pizzas:hover {
+}
+
+.pizzas button {
+  background-color: aqua;
+  border: 0px;
+  border-radius: 8px;
+  height: 27px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.pizzas button:hover {
+  background-color: rgb(30, 196, 196);
+}
+
+.pizzas button:active {
+  background-color: rgb(57, 146, 146);
 }
