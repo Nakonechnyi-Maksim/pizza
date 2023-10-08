@@ -2,11 +2,14 @@ import React, { useState, useEffect } from "react";
 import Pizzas from "../mock/mockData";
 
 function HomePage() {
-  const [data, setData] = useState([]);
+  const [id, setId] = useState([]);
 
-  useEffect(() => {
-    setData(Pizzas);
-  });
+  function handleClick() {
+    console.log();
+  }
+  // useEffect(() => {
+  //   setData(Pizzas);
+  // });
 
   return (
     <div className="menu">
@@ -19,9 +22,9 @@ function HomePage() {
             <h2>{item.name}</h2>
           </li>
           <li>{item.ingredients}</li>
-          <li>Размер{item.size}</li>
+          <li>Размер {item.size} см</li>
           <li>
-            Цена {item.price} <button>Добавить</button>
+            Цена {item.price} <button onClick={handleClick}>Добавить</button>
           </li>
         </ul>
       ))}

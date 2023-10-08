@@ -41,18 +41,19 @@ body {
 }
 
 .pizzas button {
-  background-color: aqua;
-  border: 0px;
-  border-radius: 8px;
+  background-color: rgb(251, 255, 0);
+  border: none;
+  border-radius: 20px;
   height: 27px;
+  width: 75px;
   padding: 3px;
   cursor: pointer;
 }
 
 .pizzas button:hover {
-  background-color: rgb(30, 196, 196);
+  background-color: rgb(193, 196, 30);
 }
 
 .pizzas button:active {
-  background-color: rgb(57, 146, 146);
+  background-color: rgb(124, 146, 57);
 }

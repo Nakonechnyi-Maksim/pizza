@@ -24,6 +24,7 @@ function navBar() {
           <Link to={"/aboutUs/"}>О нас</Link>
         </li>
       </ul>
+      <button className="basket">Корзина</button>
     </div>
   );
 }
