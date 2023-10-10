@@ -4,7 +4,7 @@ const Pizza = [
     img: "https://dodopizza-a.akamaihd.net/static/Img/Products/6390157043034f8585c64cc279edbef1_138x138.webp",
     name: "Ля Жопа",
     price: 400,
-    ingredients: "asdfasfasdf",
+    ingredients: "Памадорки, лучок, чесночек",
     size: "",
   },
   {
@@ -12,7 +12,7 @@ const Pizza = [
     img: "https://dodopizza-a.akamaihd.net/static/Img/Products/32a726c9e28c49b3b491115e440b5a23_146x146.webp",
     name: "Ля Жопа",
     price: 399,
-    ingredients: "",
+    ingredients: "Памадорки, лучок, чесночек",
     size: "",
   },
   {
@@ -20,7 +20,7 @@ const Pizza = [
     img: "https://dodopizza-a.akamaihd.net/static/Img/Products/f8bcc0d18f5a4817a720a159f0f8c37c_138x138.png",
     name: "Ля Жопа",
     price: 500,
-    ingredients: "asdfasdfasdf",
+    ingredients: "Памадорки, лучок, чесночек",
     size: "",
   },
   {
@@ -28,7 +28,7 @@ const Pizza = [
     img: "https://dodopizza-a.akamaihd.net/static/Img/Products/e3f5dfcb094b4c9b8200ca9f573cb2f1_138x138.png",
     name: "Ля Жопа",
     price: 600,
-    ingredients: "",
+    ingredients: "Памадорки, лучок, чесночек",
     size: "",
   },
   {
@@ -36,7 +36,7 @@ const Pizza = [
     img: "https://dodopizza-a.akamaihd.net/static/Img/Products/6390157043034f8585c64cc279edbef1_138x138.webp",
     name: "Ля Жопа",
     price: 400,
-    ingredients: "asdfasfasdf",
+    ingredients: "Памадорки, лучок, чесночек",
     size: "",
   },
   {
@@ -44,7 +44,7 @@ const Pizza = [
     img: "https://dodopizza-a.akamaihd.net/static/Img/Products/32a726c9e28c49b3b491115e440b5a23_146x146.webp",
     name: "Ля Жопа",
     price: 399,
-    ingredients: "",
+    ingredients: "Памадорки, лучок, чесночек",
     size: "",
   },
   {
@@ -52,7 +52,7 @@ const Pizza = [
     img: "https://dodopizza-a.akamaihd.net/static/Img/Products/f8bcc0d18f5a4817a720a159f0f8c37c_138x138.png",
     name: "Ля Жопа",
     price: 500,
-    ingredients: "asdfasdfasdf",
+    ingredients: "Памадорки, лучок, чесночек",
     size: "",
   },
   {
@@ -60,7 +60,7 @@ const Pizza = [
     img: "https://dodopizza-a.akamaihd.net/static/Img/Products/e3f5dfcb094b4c9b8200ca9f573cb2f1_138x138.png",
     name: "Ля Жопа",
     price: 600,
-    ingredients: "",
+    ingredients: "Памадорки, лучок, чесночек",
     size: "",
   },
 ];

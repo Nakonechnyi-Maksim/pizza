@@ -1,9 +1,12 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navBar.css";
 import logo from "./images/logo.png";
+import Modal from "./modal/modal.js";
 
-function navBar() {
+function NavBar() {
+  const [modalActive, setModalActive] = useState(false);
   return (
     <div className="navBar">
       <img src={logo} alt="logo_png" />
@@ -24,9 +27,10 @@ function navBar() {
           <Link to={"/aboutUs/"}>О нас</Link>
         </li>
       </ul>
-      <button className="basket">Корзина</button>
+      <button onClick={() => setModalActive(true)}>Корзина</button>
+      <Modal active={modalActive} setActive={setModalActive}></Modal>
     </div>
   );
 }
 
-export default navBar;
+export default NavBar;

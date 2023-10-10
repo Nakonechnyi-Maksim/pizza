@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Pizzas from "../mock/mockData";
+import "./homePage.css";
 
 function HomePage() {
   const [id, setId] = useState([]);
 
-  function handleClick() {
-    console.log();
+  function handleClick(e) {
+    return console.log(e.target.value);
   }
   // useEffect(() => {
   //   setData(Pizzas);
@@ -24,7 +25,10 @@ function HomePage() {
           <li>{item.ingredients}</li>
           <li>Размер {item.size} см</li>
           <li>
-            Цена {item.price} <button onClick={handleClick}>Добавить</button>
+            Цена {item.price}&#8381;{" "}
+            <button value={item.id} onClick={handleClick}>
+              Добавить
+            </button>
           </li>
         </ul>
       ))}
