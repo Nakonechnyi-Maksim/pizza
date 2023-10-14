@@ -5,7 +5,7 @@ const Pizza = [
     name: "Ля Жопа",
     price: 400,
     ingredients: "Памадорки, лучок, чесночек",
-    size: "",
+    size: 25,
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const Pizza = [
     name: "Ля Жопа",
     price: 399,
     ingredients: "Памадорки, лучок, чесночек",
-    size: "",
+    size: 30,
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const Pizza = [
     name: "Ля Жопа",
     price: 500,
     ingredients: "Памадорки, лучок, чесночек",
-    size: "",
+    size: 25,
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const Pizza = [
     name: "Ля Жопа",
     price: 600,
     ingredients: "Памадорки, лучок, чесночек",
-    size: "",
+    size: 25,
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const Pizza = [
     name: "Ля Жопа",
     price: 400,
     ingredients: "Памадорки, лучок, чесночек",
-    size: "",
+    size: 25,
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const Pizza = [
     name: "Ля Жопа",
     price: 399,
     ingredients: "Памадорки, лучок, чесночек",
-    size: "",
+    size: 25,
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const Pizza = [
     name: "Ля Жопа",
     price: 500,
     ingredients: "Памадорки, лучок, чесночек",
-    size: "",
+    size: 25,
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const Pizza = [
     name: "Ля Жопа",
     price: 600,
     ingredients: "Памадорки, лучок, чесночек",
-    size: "",
+    size: 25,
   },
 ];
 

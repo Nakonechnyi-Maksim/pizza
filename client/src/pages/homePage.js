@@ -10,7 +10,6 @@ function HomePage() {
     let dataId = data.id;
     return localStorage.setItem(dataId, e.target.value);
   }
-
   return (
     <div className="menu">
       {Pizzas.map((item) => (

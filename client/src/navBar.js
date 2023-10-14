@@ -1,13 +1,13 @@
 import React from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, parsePath } from "react-router-dom";
 import "./navBar.css";
 import logo from "./images/logo.png";
 import Modal from "./modal/modal.js";
 
 function NavBar() {
   const [modalActive, setModalActive] = useState(false);
-  const Pizza = {};
+  const Pizza = [];
   for (let i = 0; i <= localStorage.length; i++) {
     let key = localStorage.key(i);
     let value = localStorage.getItem(key);
@@ -19,6 +19,8 @@ function NavBar() {
     (prev, { price }) => prev + price,
     0
   );
+  console.log(Pizza);
+  console.log(Object.values(Pizza));
   return (
     <div className="navBar">
       <img src={logo} alt="logo_png" />
@@ -43,6 +45,16 @@ function NavBar() {
       <Modal active={modalActive} setActive={setModalActive}>
         <div>
           <h2>Заказ на сумму {prices}&#8381;</h2>
+          <div className="order">
+            {Pizza.map((item) => (
+              <div className="order-element">
+                <img src={item.img} alt="" />
+                <p>{item.name}</p>
+                <p>Размер {item.size}</p>
+                <p>{item.price}&#8381;</p>
+              </div>
+            ))}
+          </div>
         </div>
       </Modal>
     </div>
