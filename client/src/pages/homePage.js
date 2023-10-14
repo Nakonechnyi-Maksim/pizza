@@ -6,11 +6,10 @@ function HomePage() {
   const [id, setId] = useState([]);
 
   function handleClick(e) {
-    return console.log(e.target.value);
+    let data = JSON.parse(e.target.value);
+    let dataId = data.id;
+    return localStorage.setItem(dataId, e.target.value);
   }
-  // useEffect(() => {
-  //   setData(Pizzas);
-  // });
 
   return (
     <div className="menu">
@@ -26,7 +25,7 @@ function HomePage() {
           <li>Размер {item.size} см</li>
           <li>
             Цена {item.price}&#8381;{" "}
-            <button value={item.id} onClick={handleClick}>
+            <button value={JSON.stringify(item)} onClick={handleClick}>
               Добавить
             </button>
           </li>

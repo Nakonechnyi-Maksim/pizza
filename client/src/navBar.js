@@ -7,6 +7,18 @@ import Modal from "./modal/modal.js";
 
 function NavBar() {
   const [modalActive, setModalActive] = useState(false);
+  const Pizza = {};
+  for (let i = 0; i <= localStorage.length; i++) {
+    let key = localStorage.key(i);
+    let value = localStorage.getItem(key);
+    if (value !== null) {
+      Pizza[key] = JSON.parse(value);
+    }
+  }
+  const prices = Object.values(Pizza).reduce(
+    (prev, { price }) => prev + price,
+    0
+  );
   return (
     <div className="navBar">
       <img src={logo} alt="logo_png" />
@@ -28,7 +40,11 @@ function NavBar() {
         </li>
       </ul>
       <button onClick={() => setModalActive(true)}>Корзина</button>
-      <Modal active={modalActive} setActive={setModalActive}></Modal>
+      <Modal active={modalActive} setActive={setModalActive}>
+        <div>
+          <h2>Заказ на сумму {prices}&#8381;</h2>
+        </div>
+      </Modal>
     </div>
   );
 }
