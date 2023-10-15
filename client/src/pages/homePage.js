@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Pizzas from "../mock/mockData";
 import "./homePage.css";
+import Modal from "../modal/pizzaModal";
 
 function HomePage() {
-  const [id, setId] = useState([]);
+  const [pizzaModalActive, setPizzaModalActive] = useState(false);
 
   function handleClick(e) {
     let data = JSON.parse(e.target.value);
@@ -15,7 +16,7 @@ function HomePage() {
       {Pizzas.map((item) => (
         <ul className="pizzas">
           <li>
-            <img src={item.img} />
+            <img src={item.img} onClick={() => setPizzaModalActive(true)} />
           </li>
           <li>
             <h2>{item.name}</h2>

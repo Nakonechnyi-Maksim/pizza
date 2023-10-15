@@ -22,5 +22,8 @@
 .pizzas li,
 img {
   width: 200px;
+}
+
+.pizzas img {
   cursor: pointer;
 }

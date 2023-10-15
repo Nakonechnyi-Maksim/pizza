@@ -1,7 +1,7 @@
 import React from "react";
-import "./modal.css";
+import "./basketModal.css";
 
-function Modal({ active, setActive, children }) {
+function basketModal({ active, setActive, children }) {
   return (
     <div
       className={active ? "modal active" : "modal"}
@@ -17,4 +17,4 @@ function Modal({ active, setActive, children }) {
   );
 }
 
-export default Modal;
+export default basketModal;

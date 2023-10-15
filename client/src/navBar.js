@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./navBar.css";
 import logo from "./images/logo.png";
-import Modal from "./modal/modal.js";
+import Modal from "./modal/basketModal.js";
 
 function NavBar() {
   const [modalActive, setModalActive] = useState(false);
