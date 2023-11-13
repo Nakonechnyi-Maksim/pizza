@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function locationPage() {
-  return <div>soska</div>;
+  return <div></div>;
 }
 
 export default locationPage;

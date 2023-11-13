@@ -17,7 +17,7 @@ function HomePage() {
     setValueButton("Добавлено");
   }
 
-  function getPizza(item) { 
+  function getPizza(item) {
     setSelectPizza(item);
     setPizzaModalActive(true);
   }

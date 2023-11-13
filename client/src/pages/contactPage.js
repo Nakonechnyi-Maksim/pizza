@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function contactPage() {
-  return <div>sosiska</div>;
+  return <div>g</div>;
 }
 
 export default contactPage;

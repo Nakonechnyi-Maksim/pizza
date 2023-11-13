@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function promoPage() {
-  return <div>pipa</div>;
+  return <div></div>;
 }
 
 export default promoPage;
