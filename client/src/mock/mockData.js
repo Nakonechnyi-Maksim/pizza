@@ -1,7 +1,7 @@
 const Pizza = [
   {
     id: 1,
-    img: "https://dodopizza-a.akamaihd.net/static/Img/Products/6390157043034f8585c64cc279edbef1_138x138.webp",
+    img: "https://i.ibb.co/TPw6vRv/2023-11-20-135754290.png",
     name: "Ля Жопа",
     price: 400,
     ingredients: "Памадорки, лучок, чесночек",
